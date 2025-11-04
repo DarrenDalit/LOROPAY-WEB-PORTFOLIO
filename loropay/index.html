@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lawrence U. Loropay | Portfolio</title>
+  <link rel="stylesheet" href="rence.css"/>
+</head>
+<body>
+  
+  <header>
+    <div class="container">
+      <h1 class="logo">Lawrence U. Loropay</h1>
+
+      <nav>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+      </nav>
+    </div>
+
+    <h2 class="subtitle">I am a <span class="highlight">Web Developer</span></h2>
+  </header>
+
+ 
+  <section id="home" class="card">
+    <div class="profile">
+      <img src="./image.jpg" alt="Profile Photo" />
+      <div>
+        <h2>Lawrence U. Loropay</h2>
+        <p>Web Developer | <strong>Full Stack Dev</strong></p>
+      </div>
+    </div>
+
+    <hr />
+
+    <h3>Home</h3>
+    <p>
+      Hardworking individual always willing to learn new skills, goal-oriented student with a passion for 
+      learning and self-improvement. Excels in collaborative environments and strives for academic and personal growth.
+    </p>
+
+    <div class="info-grid">
+      <div>
+        <p><strong>Full Name:</strong> Lawrence U. Loropay</p>
+        <p><strong>Age:</strong> 21</p>
+        <p><strong>Address:</strong> Castanas, Sariaya, Quezon</p>
+        <p><strong>Birthdate:</strong> October 15, 2004</p>
+        <p><strong>Place of Birth:</strong> Bacoor, Cavite</p>
+      </div>
+      <div>
+        <p><strong>Gender:</strong> Male</p>
+        <p><strong>Nationality:</strong> Filipino</p>
+        <p><strong>Religion:</strong> Roman Catholic</p>
+        <p><strong>Height:</strong> 5'6</p>
+        <p><strong>Weight:</strong> 60kg</p>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="about" class="card">
+    <h3>About Me</h3>
+    <p>
+      Hello! I’m <b>Lawrence U. Loropay</b>, a passionate and detail-oriented
+      <strong>Web Developer</strong> with a growing interest in software development and
+      database management. In today’s digital world, web developers play a crucial role in 
+      connecting people and information through technology.
+       I love turning ideas into user-friendly digital solutions
+      and continuously improving my skills through new technologies.
+    </p>
+
+    <p>
+      My focus areas include front-end design, UI/UX principles, and
+      efficient back-end integration. I strive to create websites that are
+      not only visually appealing but also optimized and responsive across all devices.
+    </p>
+  </section>
+
+  
+  <section id="contact" class="card contact">
+    <h3>Contact Me</h3>
+    <p>If you’d like to reach out, feel free to contact me through the following:</p>
+
+    <ul class="contact-info">
+      <li><strong>Email:</strong> <a href="mail:urquiolaloropay@gmail.com">urquiolaloropay@gmail.com</a></li>
+      <li><strong>Phone:</strong> <a href="tel:+639300014824">+63 930 001 4824</a></li>
+      <li><strong>Facebook:</strong> <a href="https://www.facebook.com/lawrence.loropay" target="_blank">Lawrence Loropay</a></li>
+    </ul>
+  </section>
+
+ 
+  <footer>
+    <p>© 2025 Lawrence U. Loropay. All Rights Reserved.</p>
+  </footer>
+
+  <script>
+    const menuToggle = document.getElementById("menu-toggle");
+    const navLinks = document.getElementById("nav-links");
+
+    menuToggle.addEventListener("click", () => {
+      navLinks.classList.toggle("active");
+    });
+  </script>
+</body>
+</html>
